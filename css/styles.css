@@ -1,6 +1,6 @@
 body {
 	font-family: "Roboto", sans-serif;
-	color: #2e2f42;
+	color: var(--colorHeadings);
 }
 
 .list {
@@ -34,6 +34,14 @@ body {
 	font-size: 18px;
 	line-height: 1.33;
 	color: var(--colorBrand);
+}
+
+.header-logo-lastword {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: var(--colorHeadings);
 }
 
 .header-link {
