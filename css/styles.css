@@ -12,11 +12,11 @@ body {
 }
 
 :root {
-	--colorBlue: #4d5ae5;
-  --colorBackground: #2E2F42;
-  --background-color-btn: #F4F4FD;
-  --color-text-description: #434455;
-  --color-titles-h2-h3: #2E2F42;
+	--colorBrand: #4d5ae5;
+	--colorHeadings: #2e2f42;
+	--background-color-btn: #f4f4fd;
+	--color-text-description: #434455;
+	--color-titles-h2-h3: #2e2f42;
 }
 
 /* ------ HEADER ------- */
@@ -33,7 +33,7 @@ body {
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.33;
-	color: var(--colorBlue);
+	color: var(--colorBrand);
 }
 
 .header-link {
@@ -50,7 +50,7 @@ body {
 /*---------HERO--------- */
 
 .hero {
-  background-color: var(--colorBackground);
+	background-color: var(--colorHeadings);
 }
 
 .hero-btn {
@@ -59,7 +59,7 @@ body {
 	line-height: 1.18;
 	letter-spacing: 0.04em;
 	color: #ffffff;
-  background-color: var(--colorBlue);
+	background-color: var(--colorBrand);
 	cursor: pointer;
 }
 
@@ -68,70 +68,70 @@ body {
 	font-size: 56px;
 	line-height: 1.07;
 	letter-spacing: 0.02em;
-  color: #ffffff;
-  text-align: center;
+	color: #ffffff;
+	text-align: center;
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
-  color: var(--colorBlue);
+	color: var(--colorBrand);
 	background-color: var(--background-color-btn);
 }
 
 /* --------MAIN-------- */
-.features, .production {
-  background-color: #E5E5E5;
+.features,
+.production {
+	background-color: #e5e5e5;
 }
 
 .features-title {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--color-titles-h2-h3);
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--color-titles-h2-h3);
 }
 
 .features-description {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-text-description);
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--color-text-description);
 }
 
 .production-title {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--color-titles-h2-h3);
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: var(--color-titles-h2-h3);
 }
 
 .team {
-  background-color: #F4F4FD;
+	background-color: #f4f4fd;
 }
 
 .team-title {
-  font-weight: 600;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  color: var(--color-titles-h2-h3);
+	font-weight: 600;
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: var(--color-titles-h2-h3);
 }
 
 .team-unit-name {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--color-titles-h2-h3);
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--color-titles-h2-h3);
 }
 
 .team-title-position {
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--color-text-description);
-
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--color-text-description);
 }
 
 /* ------PORTFOLIO------- */
@@ -140,45 +140,45 @@ body {
 	font-weight: 600;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
-	color: var(--colorBlue);
+	color: var(--colorBrand);
 	background-color: var(--background-color-btn);
-cursor: pointer;
+	cursor: pointer;
 }
 
 .btn-link:hover,
 .btn-link:focus {
 	color: #ffffff;
-  background-color: var(--colorBlue);
+	background-color: var(--colorBrand);
 }
 
 .portfolio-list-title {
-  color: var(--color-titles-h2-h3);
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+	color: var(--color-titles-h2-h3);
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
 }
 
 .portfolio-list-description {
-  color: var(--color-text-description);
-  line-height: 1.5;
-  letter-spacing: 0.02em;
+	color: var(--color-text-description);
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
 
 /* ---------FOOTER-------- */
 .footer {
-  background-color: var(--colorBackground);
+	background-color: var(--colorHeadings);
 }
 
 .footer-logo-lastword {
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #F4F4FD
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.16;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: #f4f4fd;
 }
 
 .footer-slogan {
-  color: #E7E9FC;;
+	color: #e7e9fc;
 }
