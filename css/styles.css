@@ -1,0 +1,80 @@
+body {
+	font-family: "Roboto", sans-serif;
+	color: #2e2f42;
+}
+
+.list {
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+}
+
+:root {
+	--colorBlue: #4d5ae5;
+}
+
+/* ------ HEADER ------- */
+.header-logo,
+.footer-logo {
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+}
+
+.logo-title {
+	font-family: "Raleway", sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.33;
+	color: var(--colorBlue);
+}
+
+.header-link {
+	font-weight: 600;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+}
+
+.header-contacts {
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+/*---------HERO--------- */
+.hero-btn {
+	font-family: inherit;
+	font-weight: 600;
+	line-height: 1.18;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+	cursor: pointer;
+}
+
+.hero-title {
+	font-weight: 600;
+	font-size: 56px;
+	line-height: 60px;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+	color: var(--colorBlue);
+}
+
+/* ------PORTFOLIO------- */
+.btn-link {
+	font-family: inherit;
+	font-weight: 600;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: var(--colorBlue);
+	cursor: pointer;
+}
+
+.btn-link:hover,
+.btn-link:focus {
+	color: #ffffff;
+}
