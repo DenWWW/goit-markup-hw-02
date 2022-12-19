@@ -11,7 +11,7 @@
 	--background-color-btn: #f4f4fd;
 	--color-body-text: #434455;
 	--logo-line-height: 1.33;
-	--titles-line-height: 1.2;	
+	--titles-line-height: 1.2;
 	--descriptions-line-height: 1.5;
 }
 
@@ -108,10 +108,12 @@ body {
 
 /* --------MAIN-------- */
 
-.features-title, .team-unit-name, .portfolio-list-title {
+.features-title,
+.team-unit-name,
+.portfolio-list-title {
 	font-weight: var(--font-semi-bold);
 	font-size: 20px;
-	line-height: var(--titles-line-height);	
+	line-height: var(--titles-line-height);
 	color: var(--colorHeadings);
 }
 
@@ -120,7 +122,8 @@ body {
 	color: var(--color-body-text);
 }
 
-.production-title, .team-title {
+.production-title,
+.team-title {
 	font-weight: var(--font-semi-bold);
 	font-size: 36px;
 	line-height: 1.11;
@@ -159,8 +162,6 @@ body {
 	color: #ffffff;
 	background-color: var(--colorBrand);
 }
-
-
 
 .portfolio-list-description {
 	color: var(--color-body-text);
